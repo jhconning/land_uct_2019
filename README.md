@@ -4,9 +4,6 @@ To be taught January 2018 at The University of Cape Town. Sponsored by AERC.
 ### Materials for Week 1 (Conning)
 ### Land property rights, contracts; economic structure, performance and change
 
-This is mostly a skeleton of the site.  Eventually will include PDFs of class slides as well as links to interactive jupyter notebooks and replication files for laboratory exercises.
+This repository library contains (largely draft) materials for a 1-week intensive course.  
 
-These are DRAFT materials which will be later finalized.
-
-Click [![Binder](https://mybinder.org/badge.svg)](https://mybinder.org/v2/gh/jhconning/land_uct_2018/master) to explore the notebooks interactively.
-
+View this content on [as a Microsoft Azure notebook library](https://notebooks.azure.com/jhconning/libraries/uctland) to run the notebooks interactively on a cloud-based jupyter server.
