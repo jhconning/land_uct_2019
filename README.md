@@ -8,3 +8,5 @@ This is mostly a skeleton of the site.  Eventually will include PDFs of class sl
 
 These are DRAFT materials which will be later finalized.
 
+Click [![Binder](https://mybinder.org/badge.svg)](https://mybinder.org/v2/gh/jhconning/land_uct_2018/master) to explore the notebooks interactively.
+
