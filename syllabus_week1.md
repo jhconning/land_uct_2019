@@ -61,7 +61,7 @@ Economics, Vol 3*. 2659–2772. North Holland: Elsevier. (*read only pages
 
 Lecture slides, [jupyter notebooks](https://github.com/jhconning/land_uct_2018/tree/master/notebooks) on ‘Coase and the “Coase Theorem”’
 
-Day 1 Lab: [Problem Set 1](notebooks/Lab1 Week 1.pdf)
+Day 1 Lab: [Problem Set 1](notebooks/Lab1Week1.pdf)
 
 **DAY 2. Resource Allocation Benchmarks, the markets for land, labor and other factors**
 
