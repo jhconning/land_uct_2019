@@ -14,9 +14,7 @@ Office hours: TBD
 **ONLINE CLASS MATERIALS:**
 [github.com/jhconning/land_uct_2018](https://github.com/jhconning/land_uct_2018)
 
-I will post some of the readings to the Vula website but please refer to the
-github site for latest list of topics, slides, jupyter notebooks, lab materials,
-etc.
+Please refer to the github site for latest list of topics, slides, jupyter notebooks, lab materials, etc.
 
 **SCHEDULE OF CLASSES:** Topics and required readings to be covered in each
 class or lab are described below. Class slides and supporting jupyter notebooks
@@ -25,8 +23,7 @@ class [github repository](https://github.com/jhconning/land_uct_2018) These
 often refer in depth to studies that we will not have time to read in detail but
 that are listed in the end bibliography.
 
-**DAY 1: Land tenure and governance: origins, change, diversity and
-performance**
+**DAY 1: Land tenure and governance: origins, change, diversity and performance**
 
 **Topics:** Introduction to the week’s topics including a brief sketch of the
 diversity of land tenure and governance regimes across time and space and a
@@ -39,14 +36,7 @@ others. Some 'Coasean bargaining' theories suggest that land property rights and
 tenure evolve to overcome externalities and economize on ‘transactions costs’ to
 adapt to new challenges and opportunities that arise in response to rising
 population and changing technologies and opportunities for trade. While local
-norms and institutions can provide the self-enforcing spontaneous order required
-to organize activity in many situations, authors like Douglas North argue that a
-powerful and yet impartial and constrained state is needed to provide effective
-institutions to delineate rights and adjudicate disputes in order to sustain
-impersonal trade over larger distances and networks. Today we read and discuss
-theories and divergent historical trajectories on the origin and evolution of
-property rights. Do property rights evolve toward ever more efficient forms as
-argued by some or are coordination failures other ‘transactions’ allow
+norms and institutions can provide the self-enforcing spontaneous order required to organize activity in many situations, authors like Douglas North argue that a powerful and yet impartial and constrained state is needed to provide effective institutions to delineate rights and adjudicate disputes in order to sustain impersonal trade over larger distances and networks. Today we read and discuss theories and divergent historical trajectories on the origin and evolution of property rights. Do property rights evolve toward ever more efficient forms as argued by some or are coordination failures other ‘transactions’ allow
 maladapted institutions to persist? Is the direction of institutional change and
 the establishment of new forms of property rights directed by the search to
 reduce ‘transactions costs’ or by the interests and appropriative activities of
@@ -71,7 +61,7 @@ Economics, Vol 3*. 2659–2772. North Holland: Elsevier. (*read only pages
 
 Lecture slides, [jupyter notebooks](https://github.com/jhconning/land_uct_2018/tree/master/notebooks) on ‘Coase and the “Coase Theorem”’
 
-Day 1 Lab: [Problem Set 1](notebooks/Lab1.md)
+Day 1 Lab: [Problem Set 1](notebooks/Lab1 Week 1.pdf)
 
 **DAY 2. Resource Allocation Benchmarks, the markets for land, labor and other factors**
 
@@ -182,7 +172,7 @@ of History and Current Options.” *World Development* 21 (9):1451–1475.
 
 Lecture slides, [jupyter notebooks](https://github.com/jhconning/land_uct_2018/tree/master/notebooks) on ‘Latifundia economics’
 
-**Day 4: Land property rights reforms: successes, failures and impact evaluation challenges**
+**Day 5: Land property rights reforms: successes, failures and impact evaluation challenges**
 
 *Topics:* Property rights and institutions are fundamental determinants of long
 run growth because they shape the incentives of individuals to invest, manage
