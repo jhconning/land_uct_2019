@@ -1,3 +1,5 @@
+PDF version of this document [here](syllabus_week1.pdf)
+
 **Economics of Land Governance**
 
 **Week 1**  
