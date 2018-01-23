@@ -5,7 +5,7 @@ January 2018 at The University of Cape Town. Sponsored by AERC.
 #### Land property rights, contracts; economic structure, performance and change
 
 - [Course syllabus](syllabus_week1.pdf) (pdf)
-- Lecture[slides](https://drive.google.com/open?id=1LAoYyBhw7sM-4a6IjGukLRMEYqW7xp-H) 
+- Lecture [slides](https://drive.google.com/open?id=1LAoYyBhw7sM-4a6IjGukLRMEYqW7xp-H) 
 (also as a [flat](https://drive.google.com/open?id=1vx6xGAjHdSkZQzCDBoFmuqiZCQyMVtJu) file (fewer pages).
 - [Jupyter notebooks](notebooks/) for some topics.
 - [Lab](day1/) materials
