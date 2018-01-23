@@ -8,7 +8,7 @@ January 2018 at The University of Cape Town. Sponsored by AERC.
 - Lecture [slides](https://drive.google.com/open?id=1LAoYyBhw7sM-4a6IjGukLRMEYqW7xp-H) 
 (also as a [flat](https://drive.google.com/open?id=1vx6xGAjHdSkZQzCDBoFmuqiZCQyMVtJu) file (fewer pages).
 - [Jupyter notebooks](notebooks/) for some topics.
-- [Lab](day1/) materials
+- [Lab](labs/) materials
 
 This repository library contains (largely draft) materials for a 1-week intensive course.  
 
