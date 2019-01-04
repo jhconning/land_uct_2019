@@ -5,9 +5,9 @@ January 2019 at The University of Cape Town. Sponsored by AERC.
 #### The Political economy of land rights
 
 - [Course syllabus](https://drive.google.com/open?id=1gd2TJE47w93k3npwgA_MeQkR5Ner90FO) (pdf)
-- Lecture [slides](https://drive.google.com/open?id=1LAoYyBhw7sM-4a6IjGukLRMEYqW7xp-H) 
+- Lecture [slides]()  -- Coming soon.
 (also as a [flat](https://drive.google.com/open?id=1vx6xGAjHdSkZQzCDBoFmuqiZCQyMVtJu) file (fewer pages).
-- [Jupyter notebooks](notebooks/) for some topics.
-- [Lab](labs/) materials
+- [Jupyter notebooks](notebooks/): a collection of jupyter notebooks with model simulation, econometrics, or geospatial visualizations (written in python or Stata) to support some topics covered in class. 
+- Lab materials (coming soon)
 
 This repository library contains (largely draft) materials for a 1-week intensive course.  
