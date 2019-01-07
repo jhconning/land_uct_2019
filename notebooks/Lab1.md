@@ -1,55 +1,26 @@
 
 # Lab Week 1, Day 1  (Conning)
 
-The following problems explore problems involving Coasean bargaining, property rights insecurity and (mis)allocation similar to examples in class. 
+### Part I:  QGIS warm up
 
-### Problem 1: land (mis)allocation across farms
+Later in the week we'll be replicating parts of Bubb (2013).  Today we take baby steps to make sure we understand how to load a vector shapefile
 
-A village has communal lands. Resident villagers have rights to farm unutilized lands. There are two farmers A and B who each have access to the same production technology. Each unit of output they produce can be sold to traders at a price of $p=1$ per unit.  Land must be cleared before it can be farmed at a cost of $c_l$ per unit. 
+- **Download the two zipped shapefile folders that I've placed [here](https://drive.google.com/drive/folders/1DXWMFq3clxOA1lPvPbEmGqbzwuQNQohk).**  One shapefile is for present day political state boundaries, the other is from Murdock's ethnographic atlas which depicts approximate regions occupied by different ethnic groups historically. A description of this data is [here](http://eclectic.ss.uci.edu/~drwhite/worldcul/atlas.htm) and one interactive visualization [here](https://cdn.rawgit.com/jhconning/land_uct_2018/cbc64c77/notebooks/tribes.html) (see [this](https://nbviewer.jupyter.org/github/jhconning/land_uct_2019/blob/master/notebooks/Fenske.ipynb) jupyter notebook to see how it was made with python)
+- **Load the political boundaries shapefile** as one QGIS layer. Simple drag and drop zip file to map area, or via the file browser.
+- **Load the ethnographic atlas shapefile as a layer**
+- **Adjust the transparency and border thickness** of one of the layers so that you can see the overlay, and how the political boundaries of many countries (e.g. Ghana and Cote d'Ivoire) cuts through many ethnic territories.  Discuss how this is relevant to Bubb's identification strategy.
 
-Farmer A however has higher status within the village which gives her the right to choose cultivation land first. Village norms establish that she should not use more land than she can profitably farm, but she does have rights of first access and no rent is charged.
 
-Farmer $i$ chooses the amount of land $T_i$ they want to farm to solve:
 
-$$\max_{T_i}  p \cdot F(T_i) - r \cdot T_i $$
+### Part II:  Worked out problems 
 
-where $F(T_i) = 2\cdot A \sqrt T_i $
+There are three problems here, broadly modeled after material or readings discussed in class.  Please work through Problem 2 (listed here first).  You don't need to work on the other two problems for the lab but you may find it useful to do so in order to prepare for the final exam.
 
-With abundant land and in the absence of any type of land rental market we take $r$ to simply equal to the cost of clearing land $c_l$.
+You may work in groups.  Please list all group members on the submitted problem set. 
 
-a) *Solve the farmer's problem to derive an expression for their optimal land demand function $T_i^*(r, p)$:*
 
-b) Assume $A=4$, $c_l =1$ and that the village has a total of $\bar T =100$ units of land.   
 
-*Verify that at these parameter each farmer wants to farm 16 units of land, for a total of 32 units of land. Draw an approximate diagram* 
-
-Since this falls short of total village lands of $\bar T=100$ there is no conflict or congesiton and each farmer gets their preferred allocation.
-
-c) Assume now that improved product market conditions result in a doubling of the price from $p=1$ to $p=2$. 
-
-*How much land does each farmer now want to employ?*
-
-d) Farmer A is given her preferred land allocation first which then leaves farmer B with only $\bar T - T_A^*(c_l,p=2)$ units of land to farm. Farmer B utilizes this amount but it is less than their desired use of $T_B^*(c_l,p=2)$).  
-
-*What is the quantity and the value of output for each farmer under this allocation? What is total output and value?*
-
-e) *Draw an approximate diagram to describe this allocation. *
-
-f) in this now land-scarce economy, *what are the first-order necessary conditions for efficient land allocation?* You can find this by setting up the planner's programming problem. *How would land be allocated?  What is the total quantity and value of output?*
-
-g) *What is the deadweight loss (DWL) associated with the allocation where A gets their preferred land allocation and B only gets what remains?* (hint: how much lower is the value of output compared to an efficient allocation).
-
-*Does this DWL seem large or small  In practice what factors not considered here might make the DWL higher or lower?*
-
-h) Even though farmer A has access to more land and produces more output due to ther higher status, farmer B can offer to pay farmer A to farm less land.  If they bargain to an efficient solution, *how much land does A cede to B and what is the most that farmer B is willing to pay for this? *
-
-*Do you think that this is likely to happen in practice (in the real world, with more villagers)?  What kind of arrangements do you think might arise (or not arise)?* 
-
-i) Suppose we title all land and create a competitive land market. *What would be the equilibrium rental price and land use for each farmer?* (Hint: in the absence of imperfections, the equilibrium rental price should equal the marginal value product of land on either farm at the efficient allocation).  *Does the efficiency of the final allocation depend on who in the village receives title to the land?*  
-
-j) *If the land claims were to be made tradeable and a land market created how should the original claims be distributed?  Compare three stylized scenarios.  In scenario 1 inital land ownership is distributed proportional to the claims they had 'customarily' employed (e.g. farmer A gets the amount of land she profitably employed in c) when she just had to pay the cost of clearing). In scenario 2 each farmer is given and equal share of the land.  In a third scenario the land is declared to be communal owned but the village authority sets up mechanisms to rent out land on a competive basis to the highest bidder and returns land rents earned back to the community by dividing it up equally amongst all villagers.  What are theoretical and practical implications of each of these stylized alternatives in terms of efficiency, equity and political feasibility* 
-
-### Problem 2:  factor intensity adjustment and institutional change
+#### Problem 2:  factor intensity adjustment and institutional change
 
 We study production technique choice and 'induced innovation' questions employing an isoquant diagram similar to that used in  Figure 1.2 in Otsuka and Place's [chapter](http://ebrary.ifpri.org/cdm/ref/collection/p15738coll2/id/126296) in the reading for day 1.
 
@@ -109,7 +80,56 @@ Land tenure insitutions may be induced to change through a demand-driven process
 >high costs of investment... poor returns... difficulties in organizing collective action, and high transaction costs or legal restrictions on the choice of property rights institutions may all inhibit innovative institutional responses, resulting in the delay of rehabilitation and continued resource degradation (p43).
 
 
-### Problem 3: factor markets and land redistribution in a simple farm household model
+
+#### Problem 1: land (mis)allocation across farms
+
+A village has communal lands. Resident villagers have rights to farm unutilized lands. There are two farmers A and B who each have access to the same production technology. Each unit of output they produce can be sold to traders at a price of $p=1$ per unit.  Land must be cleared before it can be farmed at a cost of $c_l$ per unit. 
+
+Farmer A however has higher status within the village which gives her the right to choose cultivation land first. Village norms establish that she should not use more land than she can profitably farm, but she does have rights of first access and no rent is charged.
+
+Farmer $i$ chooses the amount of land $T_i$ they want to farm to solve:
+
+$$\max_{T_i}  p \cdot F(T_i) - r \cdot T_i $$
+
+where $F(T_i) = 2\cdot A \sqrt T_i $
+
+With abundant land and in the absence of any type of land rental market we take $r$ to simply equal to the cost of clearing land $c_l$.
+
+a) *Solve the farmer's problem to derive an expression for their optimal land demand function $T_i^*(r, p)$:*
+
+b) Assume $A=4$, $c_l =1$ and that the village has a total of $\bar T =100$ units of land.   
+
+*Verify that at these parameter each farmer wants to farm 16 units of land, for a total of 32 units of land. Draw an approximate diagram* 
+
+Since this falls short of total village lands of $\bar T=100$ there is no conflict or congesiton and each farmer gets their preferred allocation.
+
+c) Assume now that improved product market conditions result in a doubling of the price from $p=1$ to $p=2$. 
+
+*How much land does each farmer now want to employ?*
+
+d) Farmer A is given her preferred land allocation first which then leaves farmer B with only $\bar T - T_A^*(c_l,p=2)$ units of land to farm. Farmer B utilizes this amount but it is less than their desired use of $T_B^*(c_l,p=2)$).  
+
+*What is the quantity and the value of output for each farmer under this allocation? What is total output and value?*
+
+e) *Draw an approximate diagram to describe this allocation. *
+
+f) in this now land-scarce economy, *what are the first-order necessary conditions for efficient land allocation?* You can find this by setting up the planner's programming problem. *How would land be allocated?  What is the total quantity and value of output?*
+
+g) *What is the deadweight loss (DWL) associated with the allocation where A gets their preferred land allocation and B only gets what remains?* (hint: how much lower is the value of output compared to an efficient allocation).
+
+*Does this DWL seem large or small  In practice what factors not considered here might make the DWL higher or lower?*
+
+h) Even though farmer A has access to more land and produces more output due to ther higher status, farmer B can offer to pay farmer A to farm less land.  If they bargain to an efficient solution, *how much land does A cede to B and what is the most that farmer B is willing to pay for this? *
+
+*Do you think that this is likely to happen in practice (in the real world, with more villagers)?  What kind of arrangements do you think might arise (or not arise)?* 
+
+i) Suppose we title all land and create a competitive land market. *What would be the equilibrium rental price and land use for each farmer?* (Hint: in the absence of imperfections, the equilibrium rental price should equal the marginal value product of land on either farm at the efficient allocation).  *Does the efficiency of the final allocation depend on who in the village receives title to the land?*  
+
+j) *If the land claims were to be made tradeable and a land market created how should the original claims be distributed?  Compare three stylized scenarios.  In scenario 1 inital land ownership is distributed proportional to the claims they had 'customarily' employed (e.g. farmer A gets the amount of land she profitably employed in c) when she just had to pay the cost of clearing). In scenario 2 each farmer is given and equal share of the land.  In a third scenario the land is declared to be communal owned but the village authority sets up mechanisms to rent out land on a competive basis to the highest bidder and returns land rents earned back to the community by dividing it up equally amongst all villagers.  What are theoretical and practical implications of each of these stylized alternatives in terms of efficiency, equity and political feasibility* 
+
+
+
+#### Problem 3: factor markets and land redistribution in a simple farm household model
 
 An unmarried farm laborer, call him Tom, earns income by selling his labor on a competitive wage market.  He values consumption (of maize) and leisure bundles using utility function $u(c,l) = c \cdot l$ where $c$ is his daily maize consumption and $l$ is his daily leisure measured in hours. His daily labor endowment is $\bar L =24$ hours. The market wage rate is $w$ and the price of maize is $p$.
 
